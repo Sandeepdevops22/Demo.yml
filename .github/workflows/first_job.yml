@@ -11,6 +11,7 @@ jobs:
 
   second-job:
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Printing Statement3
         run: echo "Today I'm learning GitHub-Actions"
